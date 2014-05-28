@@ -1,0 +1,33 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 10px;
+}
+	.cusButton{
+		font-family: Geneva,Arial,Helvetica,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		background: url(../img/button_left.png) no-repeat;
+		height: 42px;
+		min-width: 25px;
+		line-height: 42px;
+		color: #fff;
+		display: inline-block;
+		padding: 0 0 0 20px;
+		cursor: pointer;
+	}
+	.cusButtonR{
+		display: inline-block; 
+		float:right; 
+		background: url(../img/button_right.png) no-repeat; 
+		width: 20px; height:42px;
+	}
+	.cusButtonM{
+		text-shadow: -1px -1px 0 #6F706F; 
+		display: inline-block; 
+		background: url(../img/button_line.png) repeat-x; 
+		width: auto; height:42px;
+		padding: 0 15px;
+	}

@@ -1,0 +1,29 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 10px 0 0 10px;
+	font-size: 0;
+}
+.wrapper{
+	width: 670px;
+}
+.inside {
+	float: right;
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	color: #2e2e2e;
+	width: 200px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	height: 30px;
+}
+.multidot{
+	display: inline-block;
+	border-bottom: 1px dotted gray;
+	top: -3px;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}

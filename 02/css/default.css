@@ -1,0 +1,33 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 10px 0 0 10px;
+}
+.wrapper {
+	border: 1px solid #d6d6d6;
+	margin: 5px;
+	height: 235px;
+	min-width: 772px;
+}
+.table {
+	display: table;
+	width: 100%;
+}
+.row {
+	display: table-row;
+	text-align: center;
+}
+.row div{
+	padding: 5px;
+}
+.cell {
+	font-family: Geneva,Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	display: inline-block;
+	width: 23%;
+	border: 1px solid #d6d6d6;
+	vertical-align: middle;
+	text-align: left;
+}
