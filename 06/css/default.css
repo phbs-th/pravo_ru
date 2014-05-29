@@ -1,0 +1,32 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	margin: 10px;
+}
+	.text{
+		border: 1px solid lightgray;
+		width: 640px;
+		height: auto;
+		padding: 10px;
+	}
+	.letter_square{
+		background-color: #cacaca;
+		border: 1px solid #909090;
+		display: inline-block;
+		height: 9px;
+		line-height: 5px;
+		padding: 4px;
+	}
+	.letter_round{
+		background-color: #cacaca;
+		border: 1px solid #909090;
+		display: inline-block;
+		height: 9px;
+		line-height: 5px;
+		padding: 4px;
+		border-radius: 10px;
+	}
+
+
