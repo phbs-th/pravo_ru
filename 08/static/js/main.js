@@ -1,10 +1,11 @@
 $(function() {
 	$('.b-button').click(function() {
+		var $form = $("#bForm");
 		$.post(
-			$("#bForm").attr('action'), 
-			$("#bForm").serialize(), 
+			$form.attr('action'), 
+			$form.serialize(), 
 			function() { 
-				alert('Авторизация прошла успешно!') 
+				alert('РђРІС‚РѕСЂРёР·Р°С†РёСЏ РїСЂРѕС€Р»Р° СѓСЃРїРµС€РЅРѕ!')
 			}
 		);
 		return false;
